@@ -18,7 +18,9 @@ Then add **hubot-asset** to your `external-scripts.json`:
 
 ## Sample Interaction
 
-```
-user1>> hubot hello
-hubot>> hello!
-```
+_need to do this ..._
+
+## License
+Copyright (c) 2015 Bruce Adams
+
+Licensed under the MIT license, see `LICENSE` for details.

@@ -10,9 +10,8 @@
 #
 # Author:
 #   Bruce Adams <bruce.adams@acm.org>
-#
-# License:
-#   MIT
+#   Copyright (c) 2015 Bruce Adams
+#   Licensed under the MIT license, see `LICENSE` for details.
 
 new_holder = (name) ->
   name: name
