@@ -8,12 +8,9 @@ describe 'asset', ->
   beforeEach ->
     @robot =
       respond: sinon.spy()
-      hear: sinon.spy()
 
     require('../src/asset')(@robot)
 
+  # Not exactly an interesting test...
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/hello/)
-
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/orly/)
+    expect(@robot.respond).to.have.been.calledWith(/asset\s+(\w+)\s*([^\s]*)/i)
