@@ -2,7 +2,12 @@
 
 A Hubot script to keep a lending library of assets
 
-See [`src/asset.coffee`](src/asset.coffee) for full documentation.
+## Commands
+* **hubot asset create** _name_ - Create a new asset in the library
+* **hubot asset borrow** _name_ - Borrow an asset
+* **hubot asset return** _name_ - Return a borrowed asset
+* **hubot asset destroy** _name_ - Remove an asset from the library
+* **hubot asset status** - List the holder or availability of each asset
 
 ## Installation
 
